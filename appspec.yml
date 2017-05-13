@@ -1,0 +1,32 @@
+---
+version: 0.0
+os: linux
+files:
+  - source: /
+    destination: /home/ec2-user/node
+permissions:
+  - object: /home/ec2-user
+    owner: ec2-user
+    group: ec2-user
+    type:
+      - directory
+      - file
+
+hooks:
+  ApplicationStop:
+    - location: deploy/stop.sh
+      timeout: 120
+      runas: ec2-user
+  BeforeInstall:
+    - location: deploy/install.sh
+      timeout: 300
+      runas: ec2-user
+  AfterInstall:
+    - location: deploy/post_install.sh
+      timeout: 600
+      runas: ec2-user
+  ApplicationStart:
+    - location: deploy/run.sh
+      timeout: 120
+      runas: ec2-user
+
