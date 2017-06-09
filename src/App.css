@@ -1,0 +1,39 @@
+section {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section:nth-of-type(1) {
+  background-image: url('https://maxpull-gdvuch3veo.netdna-ssl.com/wp-content/uploads/2008/07/tulips-in-bloom.jpg')
+}
+    
+section:nth-of-type(2) {
+  background-image: url('https://penguinswithpaintbrushes.files.wordpress.com/2014/06/cropped-sickles-events-481.jpg')
+}
+    
+section:nth-of-type(3) {
+  background-image: url('https://nothinginbiology.files.wordpress.com/2015/09/skyscapes-trees-1011645-2560x1600.jpg')
+}
+ 
+body {
+  margin: 0; 
+  font-family: monospace;
+
+}
+  
+p {
+  margin: 0;
+  font-size: 2rem;
+  padding: 0 5rem;
+  text-shadow: 1px 1px #333;
+  color: #fff;
+  }
