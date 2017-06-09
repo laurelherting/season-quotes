@@ -9,7 +9,8 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-     <section id="p"
+     <section id="p">
+     </section>
     );
   }
 }
