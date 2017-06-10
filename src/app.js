@@ -10,6 +10,9 @@ class App extends Component {
   render() {
     return (
      <section id="p">
+      <label>
+        input type="text" />
+      </label>
      </section>
     );
   }
