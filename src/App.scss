@@ -14,6 +14,7 @@ section {
 
 section:nth-of-type(1) {
   background-image: url('https://maxpull-gdvuch3veo.netdna-ssl.com/wp-content/uploads/2008/07/tulips-in-bloom.jpg')
+
 }
     
 section:nth-of-type(2) {
@@ -33,13 +34,6 @@ p {
   margin: 0;
   font-size: 2rem;
   padding: 0 5rem;
-  text-shadow: 1px 1px #333;
+  text-shadow: 2px 2px #ff0000;
   color: #fff;
-}
-  
-h3 {
-  color: white
-}
-
-h3.a {
-color: white; text-shadow: black 0.1em 0.1em 0.2em}
+  }
