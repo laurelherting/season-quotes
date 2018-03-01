@@ -11,13 +11,16 @@ class App extends Component {
     return (
       <div>
         <section>
-          <p>These are tulips</p>
+          <p>spring text</p>
         </section>
         <section>
-          <p>These are paintbrushes</p>
+          <p>summer text</p>
         </section>
         <section>
-          <p>These are trees</p>
+          <p>fall text</p>
+        </section>
+        <section>
+          <p>winter text</p>
         </section>
       </div>
     );
