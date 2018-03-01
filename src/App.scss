@@ -13,18 +13,21 @@ section {
 }
 
 section:nth-of-type(1) {
-  background-image: url('https://maxpull-gdvuch3veo.netdna-ssl.com/wp-content/uploads/2008/07/tulips-in-bloom.jpg')
-
+  background-image: url('https://images.unsplash.com/photo-1456415333674-42b11b9f5b7b?ixlib=rb-0.3.5&s=45f3456852bf8f3abb16e08397a7aa9b&auto=format&fit=crop&w=900&q=60');
 }
-    
+
 section:nth-of-type(2) {
-  background-image: url('https://penguinswithpaintbrushes.files.wordpress.com/2014/06/cropped-sickles-events-481.jpg')
+  background-image: url('https://images.unsplash.com/photo-1477245940034-906ea86a3b26?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=0ee44c0a737341c6b72ee9b36d8aefcb&auto=format&fit=crop&w=1351&q=80');
 }
     
 section:nth-of-type(3) {
-  background-image: url('https://nothinginbiology.files.wordpress.com/2015/09/skyscapes-trees-1011645-2560x1600.jpg')
+  background-image: url('https://images.unsplash.com/photo-1439464678930-c157fd3823cc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bd5ec4e2084a2e3afddc13526d0f03dc&auto=format&fit=crop&w=900&q=60');
 }
- 
+
+section:nth-of-type(4) {
+  background-image: url('https://images.unsplash.com/photo-1423145406370-2b342ae5b597?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=51fece07a437483be162d53c83962d4f&auto=format&fit=crop&w=900&q=60');
+}
+
 body {
   margin: 0; 
   font-family: 'Roboto Mono', monospace;
@@ -34,6 +37,6 @@ p {
   margin: 0;
   font-size: 2rem;
   padding: 0 5rem;
-  text-shadow: 2px 2px #ff0000;
+  text-shadow: 2px 2px black;
   color: #fff;
   }
