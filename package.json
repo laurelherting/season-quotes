@@ -9,7 +9,7 @@
     "predeploy": "yarn run build",
     "deploy": "gh-pages -d build",
     "start": "babel-node devServer.js",
-    "build:dist": "webpack --env=prod --config webpack.prod.config.babel.js --progress --profile --colors",
+    "build": "webpack --env=prod --config webpack.prod.config.babel.js --progress --profile --colors",
     "test": "jest",
     "lint": "eslint src",
     "preprod": "yarn run build:dist",
