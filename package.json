@@ -7,7 +7,7 @@
   "private": "true",
   "scripts": {
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages build",
     "start": "babel-node devServer.js",
     "build:dist": "webpack --env=prod --config webpack.prod.config.babel.js --progress --profile --colors",
     "lint": "eslint src",
