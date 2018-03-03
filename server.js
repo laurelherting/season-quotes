@@ -17,7 +17,7 @@ app.listen(port, (error) => {
   } else {
     console.info(
       '🌎 Listening on port %s.',
-      port
+      port,
     );
   }
   // eslint-enable-line no-console
