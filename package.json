@@ -2,7 +2,7 @@
   "name": "may-day",
   "version": "1.0.0",
   "description": "may-day app",
-  "homepage": "https://harmonsoftwaresolutions.github.io/may-day/",
+  "homepage": "https://laurelherting.github.io/may-day",
   "main": "server.js",
   "private": "true",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/harmonsoftwaresolutions/may-day-www.git"
+    "url": "https://laurelherting.github.io/may-day"
   },
   "engines": {
     "node": ">= 8.9.1",
