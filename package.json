@@ -1,8 +1,8 @@
 {
-  "name": "may-day",
+  "name": "season-quotes",
   "version": "1.0.0",
-  "description": "may-day app",
-  "homepage": "https://laurelherting.github.io/may-day",
+  "description": "season quotes-matched",
+  "homepage": "",
   "main": "server.js",
   "private": "true",
   "scripts": {
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://laurelherting.github.io/may-day"
+    "url": ""
   },
   "engines": {
     "node": ">= 8.9.1",
