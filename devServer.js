@@ -25,7 +25,7 @@ app.use('*', (req, res, next) => {
   });
 });
 
-app.listen(process.env.port || 3000, (error) => {
+app.listen(process.env.PORT || 3000, (error) => {
   /* eslint-disable no-console */
   if (error) {
     console.error(error);
